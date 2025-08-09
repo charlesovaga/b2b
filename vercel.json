@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "apps/user-ui/package.json",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "apps/admin-ui/package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "NODE_VERSION": "18.x"
+    }
+  }
+  
